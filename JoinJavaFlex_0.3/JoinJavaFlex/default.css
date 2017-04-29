@@ -1,0 +1,62 @@
+
+					@page {
+ size: letter; }
+ 
+					SPAN.special {
+ font:12pt black; }
+ 
+					TABLE.properties {
+ width:95%; }
+ 
+					TD.propname {
+ width:30%; font:bold; }
+ 
+					TR.profont {
+ font:bold; }
+
+					TD.propval {
+ width:70%; }
+ 
+					TD.dependtype {
+ width:20%;}
+ 
+					TD.dependloc {
+ width:60%; }
+ 
+					TABLE.cols {
+width:90%; }
+ 
+					TD.constraint {
+ width:20%; font:bold; }
+
+					H3.hand {
+ cursor:hand; }
+ 
+					img.bordercolor {
+border-color:#AFCA00; }
+ 
+					.FONTSTYLE {
+font-family:Arial, Helvetica, sans-serif;}
+ 
+					.LINKSTYLE {
+TEXT-DECORATION:none}
+
+					a:hover {
+TEXT-DECORATION:underline}
+
+					.TITLESTYLE {
+font-size: 26px; color: #818181;}
+
+					.TOPTITLESTYLE {
+font-size: 40px; color: #818181;}
+
+					.TABLECOLUMNSTYLE {
+font-size: 14px; font-family: Arial, Helvetica,sans-serif; color: #818181; background-color:#E6E6E6;align: center}
+ 
+					.CODESTYLE {
+font-size: 14px; font-family: Arial, Helvetica,sans-serif; color: #00e; background-color:#E6E6E6;}
+ 
+					tr {
+page-break-inside: avoid}
+
+				
