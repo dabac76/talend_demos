@@ -127,7 +127,7 @@ end
 
 ### Another Large Image
 
-![]({{ site.baseurl }}/assets/images/json_api.png)
+![]({{ site.github.url }}/assets/images/json_api.png)
 
 ### Definition lists can be used with HTML syntax.
 
