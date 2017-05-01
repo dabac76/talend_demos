@@ -3,3 +3,4 @@ description: With attention to tJava* components and custom code. Examples inclu
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
+baseurl: '/talend_demos'
