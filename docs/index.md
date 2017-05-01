@@ -22,6 +22,30 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### [](#header-3)Header 3
 
+```java
+    public static ArrayList<String[]> jdbcQuery(Connection conn, String sql) {
+        ArrayList<String[]> result = new ArrayList<String[]>();
+        Statement stmt = null;
+        try{
+            stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(sql);
+            int cols = rs.getMetaData().getColumnCount();
+            while (rs.next()) {
+                String[] row = new String[cols];
+                for (int i = 0; i < cols; i++) {
+                    // jdbc column index starts from 1 
+                    row[i] = rs.getString(i+1);
+                }
+                result.add(row);
+            }
+            stmt.close();            
+        } catch (Exception e) {
+            System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+        }
+        return result;
+    } //jdbcQuery
+```
+
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
@@ -100,6 +124,10 @@ end
 
 ![](https://guides.github.com/activities/hello-world/branching.png)
 
+
+### Another Large Image
+
+![]({{ site.url }}/assets/images/json_api.png)
 
 ### Definition lists can be used with HTML syntax.
 

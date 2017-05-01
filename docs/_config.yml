@@ -1,5 +1,5 @@
-title: Midnight theme
-description: Midnight is a theme for GitHub Pages.
-show_downloads: true
+title: Talend Demos
+description: With attention to tJava* components and custom code. Examples include HTML & Json parsing.   
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
