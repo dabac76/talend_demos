@@ -20,7 +20,8 @@ In this case it's SQLite , but all other have it as well with similar naming. Th
 Remember, even if you have a big fat schema you don't have to type sql create statement at all. Instead use this trick:
 * Finish your data flow. In database output component pick as 'Action on table': 'Create table' or 'Create table if does not exist' as you need.
 * Press 'Code' tab. Talend just generated the whole create statement for you inside Java code :) Just find it and copy it. 
-* Don't forget now to switch 'Action on table' back to whatever else action you need like default/insert/update.  
+* Don't forget now to switch 'Action on table' back to whatever else action you need like default/insert/update.
+  
 ### 3. HttpJsonAPI
 ![]({{ site.baseurl }}/assets/images/HttpJsonAPI_0.2_20170428.png)
 
